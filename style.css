@@ -10,7 +10,7 @@ body {
   transition: background-color 0.4s ease, color 0.4s ease;
 }
 
-/* Umum */
+
 p {
   padding: 10px;
   border-radius: 10px;
@@ -59,7 +59,7 @@ i {
   margin-bottom: 16px;
 }
 
-/* Navigasi */
+
 nav {
   background-color: #f3f4f6;
   padding: 10px 20px;
@@ -86,7 +86,6 @@ nav a:hover {
   color: #1d4ed8;
 }
 
-/* Typewriter */
 .typewriter {
   overflow: hidden;
   white-space: nowrap;
@@ -107,7 +106,6 @@ nav a:hover {
   to { border-right: none; }
 }
 
-/* Animasi Slide In */
 @keyframes slideInLeft {
   from { opacity: 0; transform: translateX(-100%); }
   to { opacity: 1; transform: translateX(0); }
@@ -117,7 +115,6 @@ nav a:hover {
   opacity: 0;
 }
 
-/* Home Container */
 .home-container {
   display: flex;
   align-items: center;
@@ -151,7 +148,6 @@ nav a:hover {
   box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
-/* Flip Card Foto */
 .flip-card {
   background-color: transparent;
   width: 250px;
@@ -207,7 +203,6 @@ nav a:hover {
   font-size: 24px;
 }
 
-/* Penjelasan Koding */
 .penjelasan-koding {
   margin-top: 30px;
   background-color: rgba(255, 255, 255, 0.08);
@@ -230,7 +225,6 @@ nav a:hover {
   padding-left: 20px;
 }
 
-/* Zigzag Layout */
 .penjelasan-zigzag {
   margin-top: 40px;
   display: flex;
@@ -278,7 +272,6 @@ nav a:hover {
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
-/* Tambahan untuk Profile & Cerita agar tidak polos */
 #profile,
 #cerita {
   background-color: #f9fafb;
@@ -296,3 +289,4 @@ nav a:hover {
   font-size: 26px;
   margin-bottom: 20px;
 }
+
